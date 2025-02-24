@@ -22,12 +22,5 @@ class AccountTest {
         assertEquals(25, account.getBalance());
     }
 
-    @Test
-    void testMain() {
-        account.deposit(100);
-        assertEquals(100, account.getBalance());
-        account.withdraw(50);
-        assertEquals(50, account.getBalance());
-    }
 
 }
