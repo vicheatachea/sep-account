@@ -24,7 +24,6 @@ class AccountTest {
 
     @Test
     void testMain() {
-        Account account = new Account();
         account.deposit(100);
         assertEquals(100, account.getBalance());
         account.withdraw(50);
